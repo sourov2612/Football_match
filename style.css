@@ -1,5 +1,6 @@
 body{
     font-family: "Poppins", sans-serif;
+    background-color: #f3eded;
 }
 
 /*-----------------------
@@ -52,6 +53,58 @@ header img{
 .text{
     color: white;
 }
+
+
+
+  /*-----------------------
+  ------ Content Section ------
+  ------------------------ */
+
+
+  .content{
+    display: grid;
+    grid-template-columns: repeat(2, 30% 70%); 
+    margin-top: 100px;
+  }
+
+  .manus{
+    margin-right: 30px; 
+  }
+
+  .manu{
+    width: 100%;
+    height: 340px;
+    background-color: black; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+  }
+
+  .manu a{
+    border: 2px solid white;
+    background-color: white; 
+    width: 220px; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .manu a blog{
+    background-color: red;
+    color: rgb(240, 10, 10);
+  }
+
+  .newses{
+    margin
+  }
+
+
+
+
 
 
 
