@@ -98,9 +98,64 @@ header img{
     color: rgb(240, 10, 10);
   }
 
-  .newses{
-    margin
+  .newses{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
+
+  .news_content{
+    margin-left: 15px; 
+  }
+
+  .news{
+    border: 1px solid rgb(200, 197, 197);
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    margin-left: 20px;
+  }
+
+  .news img{
+    width: 100%;
+    margin-bottom: 20px; 
+  }
+
+  .transfer{
+    text-decoration: none;
+    border: 2px solid black; 
+    border-radius: 7px; 
+    padding: 5px 20px;
+    color: black;
+  } 
+
+  .Transfer_Live{
+    font-weight: 700; 
+    margin-bottom: 3px;
+  }
+
+  .content_foot{
+    display: flex;
+  }
+  /* .time{
+    display: flex;
+    justify-content: start;
+  }
+  .comment{
+    display: flex;
+    justify-content: center;
+  } */
+
+  .content_foot .icon{
+    padding-top: 21px; 
+  }
+
+  .fa-message{
+    margin-left: 25px;
+  }
+  .content_foot p{
+    padding-bottom: 5px;
+    padding-left: 7px;
+  }
+
 
 
 
